@@ -1,13 +1,53 @@
----
-layout: default
-title: QingFeng の ブログ
----
+<!DOCTYPE html>
+<html>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="QingFeng : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>QingFeng</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/qingfeng">View on GitHub</a>
+
+          <h1 id="project_title">QingFeng</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h3>
+
+<p>Email: qingfeng at douban.com</p>
+
+<p>Twitter: <a href="https://twitter.com/qingfeng">twitter.com/qingfeng</a></p>
+
+<p>Github: <a href="http://github.com/qingfeng/">github.com/qingfeng/</a></p>
+
+<p><img class="emoji" title=":beer:" alt=":beer:" src="https://github.global.ssl.fastly.net/images/icons/emoji/beer.png" height="20" width="20" align="absmiddle"></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
