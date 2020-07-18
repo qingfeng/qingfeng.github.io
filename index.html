@@ -41,13 +41,13 @@
           <article class="profile-menu" id="menu">
             <nav class="menu-navigation">
               <ul class="menu-navigation-list">
-                <li class="menu-navigation-list-item"><a href="#english">English</a></li>
-                <li class="menu-navigation-list-item"><a href="#chinese">Chinese</a></li>
+                <li class="menu-navigation-list-item"><a href="#bot">Bots</a></li>
+                <li class="menu-navigation-list-item"><a href="#channel">Channels</a></li>
               </ul>
             </nav>
 
-            <div id="english" class="menu-category">
-              <h3 class="menu-category-name">English</h3>
+            <div id="bot" class="menu-category">
+              <h3 class="menu-category-name">Bots</h3>
               <ol class="menu-category-list has-images">
               <li class="menu-item">
                 <div class="menu-item-info">
@@ -123,11 +123,6 @@
                   <img src="images/gif_tenor_bot.png" />
                 </div>
               </li>
-              </ol>
-            </div>
-            <div id="chinese" class="menu-category">
-              <h3 class="menu-category-name">Chinese</h3>
-              <ol class="menu-category-list has-images">
               <li class="menu-item">
                 <div class="menu-item-info">
                   <h4 class="menu-item-name">豆瓣bot</h4>
@@ -150,6 +145,31 @@
               </li>
               </ol>
             </div>
+            <div id="channel" class="menu-category">
+              <h3 class="menu-category-name">Channels</h3>
+              <ol class="menu-category-list has-images">
+              <li class="menu-item">
+                <div class="menu-item-info">
+                  <h4 class="menu-item-name">NHKラジオニュース</h4>
+                  <span class="menu-item-price"><a href="https://t.me/nhknews_jp" target="_blank">Website</a></span>
+                  <p class="menu-item-description">NHKラジオニュースをいつでもどこでもお聞きになれるサービスです。</p>
+                </div>
+                <div class="menu-item-image has-meta-content">
+                  <img src="images/nhknews_jp.png" />
+                </div>
+              </li>
+              <li class="menu-item">
+                <div class="menu-item-info">
+                  <h4 class="menu-item-name">亚洲美女 Asia Girls</h4>
+                  <span class="menu-item-price"><a href="https://t.me/asiacutegirls" target="_blank">Website</a></span>
+                  <p class="menu-item-description">You know what I mean.</p>
+                </div>
+                <div class="menu-item-image has-meta-content">
+                  <img src="images/asiacutegirls.png" />
+                </div>
+              </li>
+              </ol>
+            </div>
           </article>
 
           <section class="profile-modules" id="modules">
@@ -163,9 +183,32 @@
               </li>
             </ul>
           </section>
+
+          <div id="disqus_thread""></div>
+
         </section>
       </div>
     </div>
+
+
+    <script>
+    /*
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    */
+    var disqus_config = function () {
+    this.page.url = 'https://qingfeng.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-qingfeng-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
 
     <footer class="footer">
       <nav class="footer-navigation">
